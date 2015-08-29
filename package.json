@@ -38,9 +38,6 @@
   ],
   "author": "Stephen J. Collings <stevoland@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "react": ">=0.13"
-  },
   "devDependencies": {
     "babel": "^5.8.19",
     "babel-core": "^5.8.19",

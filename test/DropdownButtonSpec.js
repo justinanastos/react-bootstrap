@@ -153,16 +153,6 @@ describe('DropdownButton', function() {
     node.className.should.match(/\bopen\b/);
   });
 
-  it('warn about the navItem deprecation', function() {
-    const props = {
-      title: 'some title',
-      navItem: true
-    };
-
-    DropdownButton.propTypes.navItem(props, 'navItem', 'DropdownButton');
-    shouldWarn(/navItem.*NavDropdown component/);
-  });
-
   it('Should pass props to button', function () {
     const instance = ReactTestUtils.renderIntoDocument(
       <DropdownButton title="Title" bsStyle="primary" id="testId" disabled>
